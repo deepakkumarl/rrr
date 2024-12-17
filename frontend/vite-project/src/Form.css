@@ -1,0 +1,41 @@
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input,select{
+   margin: 10px;
+   padding: 5px;
+   color: black;
+   border-radius: 10px;
+   background: transparent;
+   background-color: aliceblue;
+}
+
+form input :focus{
+    border: none;
+    outline: none;
+}
+
+.form button{
+    margin: 8px;
+    background-color:antiquewhite;
+    color: black;
+}
+
+button :hover{
+    background-color: red;
+}
+
+.error{
+    color: red;
+    font-size: small;
+}
+
+.message{
+    color:green;
+    font-size: medium;
+    position: relative;
+    top: 15px;
+}
